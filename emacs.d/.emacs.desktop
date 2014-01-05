@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Jan  5 09:40:57 2014
+;; Created Sun Jan  5 17:28:48 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -246,15 +246,4 @@
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/diary"
-  "diary"
-  'diary-mode
-  nil
-  1
-  '(nil nil)
-  nil
-  nil
-  nil)
 
