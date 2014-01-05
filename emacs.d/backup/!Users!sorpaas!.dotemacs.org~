@@ -1,0 +1,124 @@
+#+TITLE: Dot Org File
+
+* System Config
+** Window Size
+#+BEGIN_SRC emacs-lisp
+(when window-system (set-frame-size (selected-frame) 80 49))
+#+END_SRC
+** Bells
+#+BEGIN_SRC emacs-lisp
+(defun my-bell-function ()
+  (unless (memq this-command
+    	'(isearch-abort abort-recursive-edit exit-minibuffer
+              keyboard-quit mwheel-scroll down up next-line previous-line
+              backward-char forward-char))
+    (ding)))
+(setq ring-bell-function 'my-bell-function)
+#+END_SRC
+** Save Mode
+#+BEGIN_SRC emacs-lisp
+(desktop-save-mode 1)
+#+END_SRC
+** Backup and Autosave
+#+BEGIN_SRC emacs-lisp
+(defvar backup-dir (expand-file-name "~/.emacs.d/backup/"))
+(defvar autosave-dir (expand-file-name "~/.emacs.d/autosave/"))
+(setq backup-directory-alist (list (cons ".*" backup-dir)))
+(setq auto-save-list-file-prefix autosave-dir)
+(setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
+#+END_SRC
+** Theme
+#+BEGIN_SRC emacs-lisp
+(load-theme 'solarized-dark t)
+#+END_SRC
+* Org Mode
+** Org
+#+BEGIN_SRC emacs-lisp
+(require 'org-install)
+#+END_SRC
+*** Basic Config
+#+BEGIN_SRC emacs-lisp
+(setq org-log-done t)
+(setq org-agenda-include-diary t)
+(setq org-startup-indented t)
+#+END_SRC
+**** Dictionary
+#+BEGIN_SRC emacs-lisp
+(setq org-directory "~/Workspace/org")
+(setq org-agenda-files (list "~/Workspace/org"))
+#+END_SRC
+*** Mode Hooks
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+#+END_SRC
+**** Auto Fill
+(add-hook 'org-mode-hook 'turn-on-auto-fill)
+*** Key Maps
+#+BEGIN_SRC emacs-lisp
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+#+END_SRC
+** Org Mobile
+#+BEGIN_SRC emacs-lisp
+(require 'org-mobile)
+(setq org-mobile-inbox-for-pull "~/Workspace/org/notes.org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+#+END_SRC
+** Org Publish
+#BEGIN_SRC emacs-lisp
+(require 'org-publish)
+(setq org-publish-project-alist
+  '(
+     ("org-notes"
+	   :base-directory "~/Workspace/org/"
+	   :base-extension "org"
+	   :publishing-directory "~/Workspace/org-publish/"
+	   :recursive t
+	   :style "<link rel=\"stylesheet\" type=\"text/css\" href=\"site.css\" />"
+	   :publishing-function org-publish-org-to-html
+	   :headline-levels 4             ; Just the default for this project.
+	   :auto-preamble t
+	 )
+	 ("org-static"
+	   :base-directory "~/Workspace/org/"
+	   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+	   :publishing-directory "~/Workspace/org-publish"
+	   :recursive t
+	   :publishing-function org-publish-attachment
+	 )
+	 ("org" :components ("org-notes" "org-static"))))
+#END_SRC
+** Org Context
+#+BEGIN_SRC emacs-lisp
+(require 'org-context)
+(org-context-activate)
+#+END_SRC
+* Lojban Mode
+#+BEGIN_SRC emacs-lisp
+(setq load-path
+      (cons "~/.emacs.d/lojban" load-path))
+(autoload 'lojban-parse-region "lojban" nil t)
+(autoload 'lojban-mode "lojban-mode" nil t)
+#+END_SRC
+* Email System
+#+BEGIN_SRC emacs-lisp
+(setq gnus-select-method
+      '(nnimap "gmail"
+	       (nnimap-address "imap.gmail.com")
+	       (nnimap-server-port 993)
+	       (nnimap-stream ssl)))
+
+(setq message-send-mail-function 'smtpmail-send-it
+      smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials '(("smtp.gmail.com" 587
+				   "sorpaas@gmail.com" nil))
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587
+      gnus-ignored-newsgroups "^to\\.\\|^[0-9. ]+\\( \\|$\\)\\|^[\"]\"[#'()]")
+#+END_SRC
+
+
+
+
+

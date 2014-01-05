@@ -1,0 +1,20 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("sorpaas.com"
+  [url-cookie "sorpaas_wikiToken" "9f3d6cb6e70781c80cce52f1b6cb8903" "28-Jun-2014 12:53:51.00 GMT" "/" "sorpaas.com" nil]
+  [url-cookie "sorpaas_wikiUserName" "Sorpaas" "28-Jun-2014 12:53:51.00 GMT" "/" "sorpaas.com" nil]
+  [url-cookie "httponly" nil "28-Jun-2014 12:53:51.00 GMT" "/" "sorpaas.com" nil]
+  [url-cookie "sorpaas_wikiUserID" "1" "28-Jun-2014 12:53:51.00 GMT" "/" "sorpaas.com" nil])
+ ("marmalade-repo.org"
+  [url-cookie "httpOnly" nil "Sun, 05 Jan 2014 06:33:30 GMT" "/" "marmalade-repo.org" nil]
+  [url-cookie "connect.sid" "PdYpLT2SJuD79cS9c5aHMCSt.FUto5GHfEG0bVIoipr5T5W1GmuS1SSR6ObuC%2BE8TPuw" "Sun, 05 Jan 2014 06:33:30 GMT" "/" "marmalade-repo.org" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
