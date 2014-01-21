@@ -1,0 +1,84 @@
+#+LAST_MOBILE_CHANGE: 2013-12-11 20:21:45
+#+TITLE: dood! Project
+#+TODO: TODO(t) WAITING(w) | DONE(d) CANCELED(c)
+#+TODO: PROBLEM(p) QUESTION(q) | SOLVED(s)
+#+TODO: MISSION(m) | COMPLETE(o)
+
+The dood! project aims to be involved in a startup company. The
+detailed goals are as follows.
+- An app Brendan loves
+- Network
+- Brendan's gaining experience
+  - In software developing
+  - In the methodology to finish a project
+- Brendan's gaining reputation
+- Brendan's benefiting from the company
+
+In order to do this, things as follows should be done.
+
+* Resource for the Project
+** Accounts
+*** Phonegap Build Adobe ID
+Email: me@cshum.com
+Password: adobeon99
+*** Android Cerficfication Key Password
+cutlei69:o)
+*** Kendo UI
+Email: chankingto819@yahoo.com.hk
+Password: doodhere
+*** Cloudinary
+Email: timchan@doodhere.comsi
+Password: doodhere
+*** Firebase
+Email: chankingto819@yahoo.com.hk
+Password: doodhere
+*** Google
+Email: doodhere13@gmail.com
+Password: davidgoliath
+* MISSION Release of native iOS version of dood
+:PROPERTIES:
+:ORDERED:  t
+:ID:       53C0C002-FF86-47A8-BEC2-92AD96EB055C
+:END:
+** DONE Interface Prototype
+CLOSED: [2014-01-06 Mon 22:03] DEADLINE: <2014-01-11 Sat>
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 13:08]--[2014-01-05 Sun 15:17] =>  2:09
+CLOCK: [2014-01-05 Sun 10:35]--[2014-01-05 Sun 13:03] =>  2:28
+:END:
+:PROPERTIES:
+:ID:       0D447998-6D47-4CD0-AC40-0D103EFA78F8
+:END:
+*** DONE dood Photo Table View
+CLOSED: [2014-01-06 Mon 22:02] SCHEDULED: <2014-01-06 Mon>
+:LOGBOOK:
+CLOCK: [2014-01-06 Mon 14:11]--[2014-01-06 Mon 22:02] =>  7:51
+:END:
+:PROPERTIES:
+:ID:       78D67C48-1F85-436B-91B2-045EEE4D4C97
+:END:
+*** DONE dood Notification Table View
+CLOSED: [2014-01-06 Mon 22:02] SCHEDULED: <2014-01-06 Mon>
+:PROPERTIES:
+:ID:       9B01039F-7AEF-4565-8A30-0C6A8FA65B04
+:END:
+*** DONE dood Create Function Views
+CLOSED: [2014-01-06 Mon 22:02] SCHEDULED: <2014-01-07 Tue>
+:PROPERTIES:
+:ID:       015D393A-75F0-4380-BC2F-3CA75E4A28EA
+:END:
+*** DONE dood Profile View
+CLOSED: [2014-01-06 Mon 22:02] SCHEDULED: <2014-01-06 Mon>
+:PROPERTIES:
+:ID:       887D58B6-6642-4F9D-83A7-E9527961F22D
+:END:
+** DONE API Prototype
+CLOSED: [2014-01-12 Sun 18:44] DEADLINE: <2014-01-21 Tue>
+:PROPERTIES:
+:ID:       AA343014-B4CD-4C4E-AA6E-94EB5D545E28
+:END:
+** TODO Frame Adding / Bug Fixing
+DEADLINE: <2014-01-30 Thu>
+:PROPERTIES:
+:ID:       05C2BAC2-C773-4048-827A-EA52D676F9F5
+:END:

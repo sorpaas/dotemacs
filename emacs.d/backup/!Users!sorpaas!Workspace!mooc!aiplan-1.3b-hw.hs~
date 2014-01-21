@@ -1,0 +1,23 @@
+data Node = Node {
+	parent :: Node,
+	action :: Action,
+	state :: State,
+	depth :: Integer,
+	cost :: Integer } | NoNode
+data Action = Action {
+	mAmount :: Integer,
+	oAmount :: Integer } | NoAction
+data State = State {
+	lmAmount :: Integer,
+	loAmount :: Integer,
+	rmAmount :: Integer,
+	roAmount :: Integer,
+	ship :: Position }
+data Position = L | R
+
+initNode = Node NoNode NoAction (State 3 3 0 0 L) 0 0
+possibleActions = [
+Action 2 0, Action 1 1, Action 0 2, Action 1 0, Action 0 1
+]
+
+act = 

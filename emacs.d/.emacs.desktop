@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Jan  5 17:28:48 2014
+;; Created Tue Jan 21 14:35:42 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.3.1
 
@@ -10,30 +10,63 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("remember" "org" "mediawiki" "org-mobile" "org" "cucum" "cucumber"))
+(setq search-ring '("ghc" "scion" "ghc" "haskell" "remember" "org" "mediawiki" "org-mobile" "org" "cucum" "cucumber"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 5520 (get-buffer ".emacs")))) mk))))
-(setq file-name-history '("~/Workspace/org/notes.org" "~/.emacs" "" "~/Workspace/org/home.org" "" "~/.emacs" "~/Workspace/org" "~/.dotemacs.org" "~/.emacs" "" "~/Workspace/org/sorpa'as: The Lojbanist" "~/Documents/letter-to-prof-wong.md" "~/.emacs" "~/.bash_profile" "~/Workspace/org/home.org" "~/.emacs" "" "~/.ssh/config" "~/workspace/doodhere/doodapi/features/app.feature" "~/workspace/doodhere/doodapi/features/user_auth.feature" "~/workspace/doodhere/doodapi/features" "~" "~/workspace/doodhere/doodapi" "~/.emacs" "~/org/*Org Agenda*" "~/org/home.org" "~/.emacs" "~/org/home.org" "~/workspace/doodhere/doodapi/features/unit_model_photo.feature" "~/workspace/doodhere/doodapi/features/unit_model_place.feature"))
+(setq register-alist (list (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 3377 (get-buffer ".emacs")))) mk))))
+(setq file-name-history '("~/.emacs" "~/Workspace/mooc/writing-books.org" "~/Workspace/mooc" "~/Workspace/university/bread.org" "~/Workspace/org/thoughts.org" "~/Workspace/org/track/events.org" "~/Workspace/org/home.org" "~/Workspace/org/home" "~/Workspace" "~/Workspace/org/agenda-files" "~/Workspace/university/university.org" "~/Workspace/org/events.org" "~/.emacs" "~/Workspace/org/home.org" "~/Workspace/org/workspace.org" "~/Workspace/explore/explore.org" "~/Workspace/org/agenda-files" "~/Workspace/explore.org" "~/Workspace/org/projects.org" "~/.emacs" "~/Workspace/org/home.org" "~/.rvmrc" "~/.bashrc" "~/.bash_profile" "~/.github_token" "~/Workspace/org/notes.org" "~/.emacs" "" "~/Workspace/org/home.org" ""))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/track/tedxhkbu.org"
+  "tedxhkbu.org<2>"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/track/projects.org"
+  "projects.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  5053
+  '(5287 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
 (desktop-create-buffer 206
   "/Users/sorpaas/.emacs"
   ".emacs"
   'emacs-lisp-mode
   nil
-  3300
-  '(2600 nil)
+  3203
+  '(3185 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/workspace.org"
-  "workspace.org"
+  "/Users/sorpaas/Workspace/explore/explore.org"
+  "explore.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  1854
-  '(317 nil)
+  2185
+  '(1969 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/notes.org"
+  "notes.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  64
+  '(5171 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
@@ -43,63 +76,151 @@
   "home.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  3731
-  '(3731 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/WordPress-iOS/README.md"
-  "README.md"
-  'markdown-mode
-  nil
-  288
-  '(246 nil)
-  nil
-  nil
-  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/notes.org"
-  "notes.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  236
+  1140
   '(71 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/dood.org"
-  "dood.org"
+  "/Users/sorpaas/Workspace/org/track/agenda-files"
+  "agenda-files"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/data-process/data-process.org"
+  "data-process.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  1023
-  '(1043 nil)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/mooc/writing-books.org"
+  "writing-books.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  326
+  '(251 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/mooc/mooc.org"
+  "mooc.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  104
+  '(104 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/mcm2014/mcm2014.org"
+  "mcm2014.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  100
+  '(782 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/languages/languages.org"
+  "languages.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  2498
+  '(105 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/university/university.org"
+  "university.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  2401
+  '(2165 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/ideathonhk.org"
+  "/Users/sorpaas/Workspace/university/bread.org"
+  "bread.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  3731
+  '(3717 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/ideathonhk/ideathonhk.org"
   "ideathonhk.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  1084
-  '(500 nil)
+  783
+  '(1023 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/tedxhkbu.org"
+  "/Users/sorpaas/Workspace/tedxhkbu/tedxhkbu.org"
   "tedxhkbu.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  2890
-  '(571 nil)
+  939
+  '(6924 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/doodhere/doodhere.org"
+  "doodhere.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  2251
+  '(2105 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/track/general.org"
+  "general.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  124
+  '(119 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/track/events.org"
+  "events.org"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  3457
+  '(3373 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
@@ -109,141 +230,53 @@
   "thoughts.org"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/timeslot.org"
-  "timeslot.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  nil
-  "org"
-  'dired-mode
-  nil
-  772
-  '(772 nil)
-  t
-  '("/Users/sorpaas/Workspace/org/")
-  nil)
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/20131230-exchange-interview.org"
-  "20131230-exchange-interview.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/bdata.org"
-  "bdata.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/hackathon20131207.org"
-  "hackathon20131207.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/ifttt_like.org"
-  "ifttt_like.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/saaa.org"
-  "saaa.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/sorpaas.org"
-  "sorpaas.org"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/workspace.org_archive"
-  "workspace.org_archive"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  3376
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/ideathonhk.org_archive"
-  "ideathonhk.org_archive"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  4587
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
-
-(desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/tedxhkbu.org_archive"
-  "tedxhkbu.org_archive"
-  'org-mode
-  '(auto-fill-mode org-indent-mode)
-  11237
-  '(nil nil)
+  294
+  '(1 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/sorpaas/Workspace/org/dood.org_archive"
-  "dood.org_archive"
+  "/Users/sorpaas/Workspace/mooc/aiplan-1.3b-hw.hs"
+  "aiplan-1.3b-hw.hs"
+  'haskell-mode
+  '(haskell-indentation-mode)
+  348
+  '(560 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "mooc"
+  'dired-mode
+  nil
+  379
+  '(379 t)
+  t
+  '("/Users/sorpaas/Workspace/mooc/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/notes.org_archive"
+  "notes.org_archive"
   'org-mode
   '(auto-fill-mode org-indent-mode)
-  3884
+  1352
   '(nil nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/sorpaas/Workspace/org/track/projects.org_archive"
+  "projects.org_archive"
+  'org-mode
+  '(auto-fill-mode org-indent-mode)
+  3916
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 

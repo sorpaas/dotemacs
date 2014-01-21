@@ -1,0 +1,67 @@
+#+TITLE: Explore (Project)
+#+AUTHOR: Brendan
+#+EMAIL: ahbrendan@gmail.com
+
+* Explore Project (Handle)                                          :project:
+* Hacker
+** Graph Data
+** Huginn
+** Guthub Fork: GuessHub
+** Chatting App Demo
+*** [[http://www.slideshare.net/EddieLau1/cordova-angularjs-ionic-codeaholics][Slides]]
+*** [[https://github.com/3dd13/chatroom-cordova-ionic-angularjs-firebase][Github]]
+** Graph Database
+*** [[http://www.neo4j.org/][Neo4j]]
+*** [[http://www.datomic.com/][Datomic]]
+**** [[http://www.infoq.com/presentations/datomic-functional-database][Rich Hickey Presentation]]
+*** Email list talking
+https://mail.google.com/mail/u/0/#label/Resources/142e1073e8d54555
+** Dvoark
+:PROPERTIES:
+:ID:       B0743FE0-BBE9-412F-BAED-81956F60CEE4
+:END:
+Haha! Will need 5 hours' time slot to do it now.
+** Emacs Lisp
+:PROPERTIES:
+:ID:       3BB47639-99FF-42A1-9429-2228C56A9024
+:END:
+After using time slot to work on projects, determine the last time
+when do the project and change the color or give alert if there has
+been a long time when there's no advance in a project.
+** Haskell
+** LLVM
+:PROPERTIES:
+:ID:       A379491F-FC7A-4182-9802-C893263E5060
+:END:
+*** Introdution
+编译器和解释器代码构造相似, 真正干事情的地方改成打印或者拼字符串就可以
+了. 你可以先弄个输出 js/C 代码的编译器, 会玩了就可以尝试输出 llvm 字
+节码了 (如果用 llvm 的话, 建议实现语言选 C++, 可以少走很多弯路). 想
+直接输出 x86 也不难, 可以看看 libjit 和 xbyak, 不过要先学习 calling
+convention 和熟悉 stack layout.
+.NET DLR 上做语言更简单, 把树给它就好了.
+关键词都给你了, 自己看 wiki 咯.
+* Artificial Intelligence
+** TODO Artificial Intelligence: A Mordern Approach
+SCHEDULED: <2014-01-22 Wed +3d>
+- State "DONE"       from "TODO"       [2014-01-19 Sun 21:47]
+- State "DONE"       from "TODO"       [2014-01-16 Thu 14:41]
+- State "DONE"       from "TODO"       [2014-01-15 Wed 20:04]
+- State "DONE"       from "TODO"       [2014-01-10 Fri 21:09]
+- State "DONE"       from "TODO"       [2014-01-08 Wed 22:18]
+- State "DONE"       from "TODO"       [2014-01-04 Sat 23:21]
+:PROPERTIES:
+:LAST_REPEAT: [2014-01-19 Sun 21:47]
+:ID:       5F0D6E6D-4DA8-4583-BBD5-BEE9FD623FFC
+:END:
+*** DONE Exercise 2 for Artificial Intelligence: A Mordern Approach
+CLOSED: [2014-01-19 Sun 21:47] SCHEDULED: <2014-01-19 Sun>
+* Design
+** HackDesign
+* Computational Theory
+* Languages
+** Lojban
+** Spanish
+** Japanese
+** French
+** English

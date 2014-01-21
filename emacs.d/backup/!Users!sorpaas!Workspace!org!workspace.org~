@@ -2,6 +2,54 @@
 #+AUTHOR: Brendan
 #+EMAIL: ahbrendan@gmail.com
 
+#+BEGIN: clocktable :maxlevel 30 :scope agenda
+Clock summary at [2014-01-05 Sun 22:29]
+
+| File                            | Headline                                 | Time    |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+|                                 | ALL *Total time*                         | *10:43* |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| 20131230-exchange-interview.org | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| bdata.org                       | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| dood.org                        | *File time*                              | *4:37*  |      |      |      |
+|                                 | MISSION Release of native iOS version... | 4:37    |      |      |      |
+|                                 | \__ TODO Interface Prototype             |         | 4:37 |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| hackathon20131207.org           | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| home.org                        | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| ideathonhk.org                  | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| ifttt_like.org                  | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| notes.org                       | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| saaa.org                        | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| sorpaas.org                     | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| tedxhkbu.org                    | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| thoughts.org                    | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| timeslot.org                    | *File time*                              | *0:00*  |      |      |      |
+|---------------------------------+------------------------------------------+---------+------+------+------|
+| workspace.org                   | *File time*                              | *6:06*  |      |      |      |
+|                                 | Common                                   | 6:06    |      |      |      |
+|                                 | \__ General                              |         | 3:29 |      |      |
+|                                 | \_____ GENERAL Explore                   |         |      | 3:29 |      |
+|                                 | \__ Opportunities                        |         | 1:50 |      |      |
+|                                 | \_____ Mensa                             |         |      | 1:50 |      |
+|                                 | \________ DONE Practise Mensa online     |         |      |      | 1:50 |
+|                                 | \__ Routines                             |         | 0:47 |      |      |
+|                                 | \_____ TODO Duolingo French              |         |      | 0:07 |      |
+|                                 | \_____ TODO Memrize Japanese             |         |      | 0:24 |      |
+|                                 | \_____ TODO Memrize Lojban               |         |      | 0:16 |      |
+#+END:
+
 * Philosophy
 ** Quality
 Make it the best of the world
@@ -9,74 +57,99 @@ Make it the best of the world
 Love and life are more important
 * Responsibilities
 ** PROJECT [[file:tedxhkbu.org][TEDxHKBU]]
+:PROPERTIES:
+:ID:       283F2C05-CFF9-460E-BA9E-A908F0C1F6AC
+:END:
 ** PROJECT [[file:ideathonhk.org][IdeathonHK]]
+:PROPERTIES:
+:ID:       A4BBED9D-2C66-46B0-9AB0-E8BB1202F10E
+:END:
 ** PROJECT [[file:dood.org][dood!]]
-* Explore
-CLOCK: [2014-01-05 Sun 09:30]
-* Research
-** Hacker
-*** Graph Data
-*** Huginn
-*** Guthub Fork: GuessHub
-*** Chatting App Demo
-**** [[http://www.slideshare.net/EddieLau1/cordova-angularjs-ionic-codeaholics][Slides]]
-**** [[https://github.com/3dd13/chatroom-cordova-ionic-angularjs-firebase][Github]]
-*** Graph Database
-**** [[http://www.neo4j.org/][Neo4j]]
-**** [[http://www.datomic.com/][Datomic]]
-***** [[http://www.infoq.com/presentations/datomic-functional-database][Rich Hickey Presentation]]
-**** Email list talking
-https://mail.google.com/mail/u/0/#label/Resources/142e1073e8d54555
-*** Dvoark
 :PROPERTIES:
-:ID:       B0743FE0-BBE9-412F-BAED-81956F60CEE4
+:ID:       53E878F6-7C6B-48B3-8684-599CA912ED58
 :END:
-Haha! Will need 5 hours' time slot to do it now.
-*** Emacs Lisp
-:PROPERTIES:
-:ID:       3BB47639-99FF-42A1-9429-2228C56A9024
-:END:
-After using time slot to work on projects, determine the last time
-when do the project and change the color or give alert if there has
-been a long time when there's no advance in a project.
-*** Haskell
-** Artificial Intelligence
-** Design
-*** HackDesign
-** Computational Theory
-** Languages
-*** Lojban
-*** Spanish
-*** Japanese
-*** French
-*** English
 * Books
 ** Novel
 ** Philosophy
 * Projects
 ** PROJECT CreativeMornings
+:PROPERTIES:
+:ID:       794CD18F-D686-419A-B004-840E27DBFF51
+:END:
 ** PROJECT StreamPack
+:PROPERTIES:
+:ID:       89DBB6F0-1217-40BD-91F9-10AC43554415
+:END:
 ** PROJECT Spirits
+:PROPERTIES:
+:ID:       9EE6312C-26A2-4D8C-B5B6-23C7283604FB
+:END:
 ** PROJECT [[file:saaa.org][SAAA]]
+:PROPERTIES:
+:ID:       3B1C0C68-68BB-48B8-9418-6B2658BB0AEA
+:END:
 ** PROJECT IWTDT
+:PROPERTIES:
+:ID:       BFACCFDA-43EF-461B-821E-517B991F2D8B
+:END:
 ** PROJECT Ahnote
+:PROPERTIES:
+:ID:       9191CDF6-3E77-45D1-8607-818DBE4CF10B
+:END:
 ** PROJECT CLI Advanced
+:PROPERTIES:
+:ID:       88ADF055-2488-46FB-9A8F-89E90164F25A
+:END:
 ** PROJECT Helicopter Delivery Service
+:PROPERTIES:
+:ID:       995A2E3B-1964-41C7-BB9C-4656E355699F
+:END:
 ** PROJECT Hardware Cube Framework
+:PROPERTIES:
+:ID:       3CE8152F-CB14-4F64-987D-40CC2E7D567E
+:END:
 ** PROJECT Lojban Hong Kong
+:PROPERTIES:
+:ID:       A789BD38-5925-47A1-805D-E51B3845252A
+:END:
 * Common
 ** General
 *** GENERAL Explore
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 17:43]--[2014-01-05 Sun 18:19] =>  0:36
+CLOCK: [2014-01-05 Sun 15:41]--[2014-01-05 Sun 17:43] =>  2:02
+CLOCK: [2014-01-05 Sun 10:11]--[2014-01-05 Sun 10:34] =>  0:23
+CLOCK: [2014-01-05 Sun 09:46]--[2014-01-05 Sun 10:10] =>  0:24
+CLOCK: [2014-01-05 Sun 09:41]--[2014-01-05 Sun 09:45] =>  0:04
+:END:
+:PROPERTIES:
+:ID:       94895B2F-8ABD-4C47-9401-242B94C0DCFE
+:END:
 *** GENERAL University
+:PROPERTIES:
+:ID:       B97B548A-3B3E-4783-A554-AE2398E8481E
+:END:
 *** GENERAL Personal
+:PROPERTIES:
+:ID:       23926AC7-2D6C-482A-BCCE-A09790D71644
+:END:
 ** Traveling
 *** Spring Festival
 **** TODO Ask mum when to go back for spring festival
+:PROPERTIES:
+:ID:       7D62874E-4783-4748-A6C3-76B679BAAD1C
+:END:
 **** TODO Buy ticket for spring festival
+:PROPERTIES:
+:ID:       12DCC511-8522-4F34-B2B7-B043B69012A5
+:END:
 ** Friends and Family
 *** Postcrossing
 *** Jessie Traveling Schedule
 **** Jessie Travelled to Guangdong
+:PROPERTIES:
+:ID:       252A3D75-4F8D-47E2-8783-A4C33BABEBCC
+:END:
 <2014-01-12 Sun>
 **** Jessie Travelled to Hong Kong
 <2014-01-16 Thu>
@@ -96,18 +169,38 @@ CLOSED: [2014-01-01 Wed 22:52]
 :ID:       B2A14560-F857-42E4-AF63-08BE15771EBF
 :END:
 **** TODO Think of the iwportance of traveling to Taiwan
+:PROPERTIES:
+:ID:       EE9CF417-4BA7-4334-87F7-2519547AFEE4
+:END:
 **** TODO Ask others for visa issue of taiwan
+:PROPERTIES:
+:ID:       7A58E771-AE0F-494C-87B6-8F553872BEA1
+:END:
 **** TODO Buy ticket to Taiwan
+:PROPERTIES:
+:ID:       9512A0D6-0A7C-4AA9-B435-2514E26EB335
+:END:
 *** CTgoodjosb Jumping Man 校園見習生 2014
 **** DONE Do research about the CTgoodjob
 CLOSED: [2014-01-03 Fri 14:54]
 **** TODO (CTGoodjob) Get 5 other people and send out the application
 DEADLINE: <2014-01-12 Sun>
+:PROPERTIES:
+:ID:       F965BEB8-DA42-4DD1-87B2-F9C681CF0895
+:END:
 *** Mensa
-**** TODO Practise Mensa online
-SCHEDULED: <2014-01-05 Sun>
+**** DONE Practise Mensa online
+CLOSED: [2014-01-05 Sun 21:18] SCHEDULED: <2014-01-05 Sun>
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 18:20]--[2014-01-05 Sun 20:10] => 1:50
+:END:
 *** GEILI
+**** Meet with Tim earlier
+<2014-01-08 Wed 11:15>
 **** Meet Clive at Festival Walk
+:PROPERTIES:
+:ID:       A54E89EA-C0A4-44CF-AD7C-7742B21909E8
+:END:
 <2014-01-08 Wed 12:00>
 Clive
 93769526
@@ -120,6 +213,9 @@ CLOSED: [2014-01-03 Fri 18:29] SCHEDULED: <2014-01-02 Thu>
 Such as English Writing Service resources
 *** TODO Undergraduate Gown Collection (Final Round)
 SCHEDULED: <2014-01-08 Wed>
+:PROPERTIES:
+:ID:       A9C05C16-C80F-4D34-80DA-71B8783D7130
+:END:
 領取日期：2014 年 1 月 2 日至 2 月 28 日 (2014年1月30日、星期日及公眾假期休息)
 營業時間：星期一至六，上午10時至下午7時
 領取地點：業興洋服 中環士丹利街34號金禾大廈6樓602室 (中環地鐵站D2出口)
@@ -168,54 +264,108 @@ SCHEDULED: <2014-01-07 Tue +3d>
 - State "DONE"       from "TODO"       [2013-12-26 Thu 17:59]
 :PROPERTIES:
 :LAST_REPEAT: [2014-01-04 Sat 16:57]
+:ID:       29CA74AC-DC55-45F2-AC2C-6F13B1FA2EA3
 :END:
 *** TODO Duolingo Spanish
-SCHEDULED: <2014-01-05 Sun +1d>
+SCHEDULED: <2014-01-06 Mon +1d>
+- State "DONE"       from "TODO"       [2014-01-05 Sun 21:10]
 - State "DONE"       from "TODO"       [2014-01-04 Sat 19:32]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:20]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:20]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:19]
 :PROPERTIES:
-:LAST_REPEAT: [2014-01-04 Sat 19:32]
+:LAST_REPEAT: [2014-01-05 Sun 21:10]
+:ID:       AAAA1512-58D7-4AEF-8198-B807532D6E8F
 :END:
 *** TODO Duolingo French
-SCHEDULED: <2014-01-05 Sun +1d>
+SCHEDULED: <2014-01-06 Mon +1d>
+- State "DONE"       from "TODO"       [2014-01-05 Sun 22:24]
+- State "DONE"       from "TODO"       [2014-01-05 Sun 21:17]
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 21:10]--[2014-01-05 Sun 21:17] =>  0:07
+:END:
 - State "DONE"       from "TODO"       [2014-01-04 Sat 19:32]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:30]
 :PROPERTIES:
-:LAST_REPEAT: [2014-01-04 Sat 19:32]
+:LAST_REPEAT: [2014-01-05 Sun 22:24]
+:ID:       1721B755-07E6-4AF2-A67B-91CC5EF30D6E
 :END:
 *** TODO Memrize Japanese
-SCHEDULED: <2014-01-05 Sun +1d>
+SCHEDULED: <2014-01-06 Mon +1d>
+- State "DONE"       from "TODO"       [2014-01-05 Sun 22:24]
+- State "DONE"       from "TODO"       [2014-01-05 Sun 21:42]
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 21:18]--[2014-01-05 Sun 21:42] =>  0:24
+:END:
 - State "DONE"       from "TODO"       [2014-01-04 Sat 19:32]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:47]
 :PROPERTIES:
-:LAST_REPEAT: [2014-01-04 Sat 19:32]
+:LAST_REPEAT: [2014-01-05 Sun 22:24]
+:ID:       C421520E-ABC8-4F7E-BF13-DE11EC72B706
 :END:
 *** TODO Memrize Lojban
-SCHEDULED: <2014-01-05 Sun +1d>
+SCHEDULED: <2014-01-06 Mon +1d>
+- State "DONE"       from "TODO"       [2014-01-05 Sun 22:24]
+:LOGBOOK:
+CLOCK: [2014-01-05 Sun 22:06]--[2014-01-05 Sun 22:22] =>  0:16
+:END:
 - State "DONE"       from "TODO"       [2014-01-04 Sat 19:32]
 - State "DONE"       from "TODO"       [2014-01-03 Fri 16:57]
 :PROPERTIES:
-:LAST_REPEAT: [2014-01-04 Sat 19:32]
+:LAST_REPEAT: [2014-01-05 Sun 22:24]
+:ID:       4988C88D-8D69-4E58-9C4B-CC80DE55B8CF
 :END:
 *** TODO le cmalu noltro
 SCHEDULED: <2014-01-06 Mon +3d>
 - State "DONE"       from "TODO"       [2014-01-03 Fri 17:15]
 :PROPERTIES:
 :LAST_REPEAT: [2014-01-03 Fri 17:15]
+:ID:       6A003AD3-C080-4DA8-87E3-703CFD91B9A2
 :END:
 *** TODO Artificial Intelligence: A Mordern Approach
 SCHEDULED: <2014-01-07 Tue +3d>
 - State "DONE"       from "TODO"       [2014-01-04 Sat 23:21]
 :PROPERTIES:
 :LAST_REPEAT: [2014-01-04 Sat 23:21]
+:ID:       5F0D6E6D-4DA8-4583-BBD5-BEE9FD623FFC
 :END:
 *** TODO pa'atu'as
 SCHEDULED: <2014-01-05 Sun +1d>
 - State "DONE"       from "TODO"       [2014-01-04 Sat 23:30]
 :PROPERTIES:
 :LAST_REPEAT: [2014-01-04 Sat 23:30]
+:ID:       D0B48C30-9E9C-4DA3-83D6-A270ED624737
 :END:
 ** Special
-*** SPECIAL The Wind Rises
+*** The Wind Rises
+:PROPERTIES:
+:ID:       60E659E4-AA79-4173-8898-B574B5B3C722
+:END:
+<2014-01-08 Wed 19:30>
+交易確認
+ 
+多謝你於 www.amccinemas.com.hk 購票。
+ 
+交易已成功，你的取票編號是 ：AM597002T
+ 
+請攜同閣下剛才 訂票用之信用卡 / 禮蜜卡，到所選戲院之自助取票機取票。
+ 
+ 
+注意 :
+ 
+所有觀眾，包括手抱嬰兒均需憑票入場。小童優惠適用於11歲或以下小童，長者優惠適用於60歲或以上長者。
+ 
+凡購優惠票者在入場時必須出示相關的身份証明文件，敬請合作。院方有權拒絕沒有相關証件之人仕入場，並不會作出退票或任何賠償，交易中所繳付之訂票手續費亦將不予退還。
+ 
+ 戲院：	AMC 又一城
+ 院：	7
+ 影片：	風起了 (日語版)
+ 放映時間：	Jan 08 2014 19:30PM
+ 戲票數目：	1
+ 座位：	 E10  -  $65  學生 + $8.0 手續費 
+ 總金額 (已包括手續費)：	HK$ 73.00
+ 信用卡類型：	 VISA
+ 信用卡號碼：	 4548-XXXX-XXXX-2574
+ 已扣除信用卡金額：	 HK$ 73.00
+ 
+如遇任何問題，請與票房職員聯絡。
